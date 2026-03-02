@@ -61,7 +61,7 @@ Task2_Autotests/
 
 ## Установка зависимостей
 
-Перейти в папку 2_Autotests и выполнить:
+Перейти в папку Task2_Autotests и выполнить:
 
 pip install -r requirements.txt
 
@@ -69,12 +69,13 @@ pip install -r requirements.txt
 
 ## Запуск тестов
 
-В папке 2_Autotests выполнить:
+В папке Task2_Autotests выполнить:
 
 pytest -v
 
 ---
 
 ## Примечание
+
 
 Тесты реализованы с использованием явных ожиданий (WebDriverWait) для корректной работы с динамически загружаемыми элементами страницы.
